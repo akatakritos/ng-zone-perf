@@ -1,0 +1,8 @@
+<div class="number-box" [class.number-box--favorite]="num.favorite">
+  <div class="number-box__value">{{ num.number }}</div>
+  <div class="number-box__facts">
+    <div>Status: {{ isEven(num.number) }}</div>
+    <div>Square: {{ square(num.number) }}</div>
+    <div>Fibinocci: {{ fib(num.number) }}</div>
+  </div>
+</div>
